@@ -6,8 +6,8 @@ export default function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <meta name="author" content="Saadia El fekak" />
-        <title>Saadia El fekak</title>
         <meta name="description" content="Saadia El fekak portfolio"></meta>
+        <title>Saadia El fekak</title>
         <Component {...pageProps} />
       </Head>
     </>
