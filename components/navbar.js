@@ -1,7 +1,9 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
-import logo from "../public/logo.svg";
+import Link from "next/link";
+import logo from "../public/logo.gif";
+
 const navigation = [
   { name: "About", href: "#", current: true },
   { name: "Experience", href: "#", current: false },
@@ -15,7 +17,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-primary_2">
+    <Disclosure as="nav" className="bg-primary_1">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -33,16 +35,18 @@ export default function Navbar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
-                  <Image
-                    className="block h-8 w-auto lg:hidden"
-                    src={logo}
-                    alt="SE Logo"
-                  />
-                  <Image
-                    className="hidden h-10 h-8 w-10 w-auto lg:block"
-                    src={logo}
-                    alt="SE Logo"
-                  />
+                  <Link href="/">
+                    <Image
+                      className="block h-10 w-auto lg:hidden"
+                      src={logo}
+                      alt="SE Logo"
+                    />
+                    <Image
+                      className="hidden h-11 w-11 w-auto lg:block"
+                      src={logo}
+                      alt="SE Logo"
+                    />
+                  </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
@@ -54,7 +58,7 @@ export default function Navbar() {
                           item.current
                             ? "text-secondary_2"
                             : "text-secondary_1 hover:bg-primary_1 hover:text-secondary_2",
-                          "rounded-md px-3 py-2 text-sm font-medium"
+                          "rounded-md px-3 py-2 font-barlow text-lg"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -78,7 +82,7 @@ export default function Navbar() {
                     item.current
                       ? "text-secondary_2"
                       : "text-secondary_1 hover:bg-primary_1 hover:text-secondary_2",
-                    "block rounded-md px-3 py-2 text-base font-medium"
+                    "block rounded-md px-3 py-2 font-barlow text-lg"
                   )}
                   aria-current={item.current ? "page" : undefined}
                 >
