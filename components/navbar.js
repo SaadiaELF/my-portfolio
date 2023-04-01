@@ -2,7 +2,7 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/logo.svg";
+import logo from "../public/logo.gif";
 
 const navigation = [
   { name: "About", href: "#", current: true },
@@ -37,12 +37,12 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center">
                   <Link href="/">
                     <Image
-                      className="block h-8 w-auto lg:hidden"
+                      className="block h-10 w-auto lg:hidden"
                       src={logo}
                       alt="SE Logo"
                     />
                     <Image
-                      className="hidden h-10 h-8 w-10 w-auto lg:block"
+                      className="hidden h-11 w-11 w-auto lg:block"
                       src={logo}
                       alt="SE Logo"
                     />
