@@ -18,10 +18,10 @@ export const theme = {
       secondary_2: "#00FFF5",
     },
     animation: {
-      fade: "fadeIn 3s ease-in-out",
+      fade: "fadeInUp 3s ease-in-out",
     },
     keyframes: {
-      fadeIn: {
+      fadeInUp: {
         from: { opacity: "0", transform: "translateY(20px)" },
         to: { opacity: "1", transform: "translateY(0)" },
       },
