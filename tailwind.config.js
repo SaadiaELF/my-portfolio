@@ -27,7 +27,7 @@ export const theme = {
       },
     },
     backgroundImage: {
-      main: "url('/bg2.svg')",
+      main: "url('/bg.svg')",
     },
   },
 };
