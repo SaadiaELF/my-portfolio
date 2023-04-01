@@ -22,7 +22,7 @@ export default function MyApp({ Component, pageProps }) {
         <title>Saadia El fekak</title>
       </Head>
       <main
-        className={`bg-primary_1 ${montserrat.variable} ${barlow.variable}`}
+        className={`bg-primary_1 bg-cover xl:bg-main ${montserrat.variable} ${barlow.variable}`}
       >
         <Component {...pageProps} />
       </main>
