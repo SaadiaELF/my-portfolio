@@ -14,8 +14,17 @@ export const theme = {
     colors: {
       primary_1: "#222831",
       primary_2: "#393E46",
-      secondary_1:'#00ADB5',
-      secondary_2:'#00FFF5'
+      secondary_1: "#00ADB5",
+      secondary_2: "#00FFF5",
+    },
+    animation: {
+      fade: "fadeIn 3s ease-in-out",
+    },
+    keyframes: {
+      fadeIn: {
+        from: { opacity: "0", transform: "translateY(20px)" },
+        to: { opacity: "1", transform: "translateY(0)" },
+      },
     },
   },
 };
