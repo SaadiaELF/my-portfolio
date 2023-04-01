@@ -1,5 +1,6 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import SocialLink from "./socialLink";
+import Container from "./container";
 
 const mySocialsLink = [
   {
@@ -16,7 +17,7 @@ const mySocialsLink = [
 
 export default function Hero() {
   return (
-    <div className="relative isolate animate-fade px-6 pt-14 lg:px-8">
+    <Container>
       <div className="mx-auto my-4 max-w-5xl bg-primary_1 bg-opacity-80 p-2 sm:my-28 lg:my-36">
         <p className="mt-6 font-montserrat text-lg leading-8 text-teal-100">
           Hi, my name is
@@ -46,6 +47,6 @@ export default function Hero() {
           ))}
         </div>
       </div>
-    </div>
+    </Container>
   );
 }
