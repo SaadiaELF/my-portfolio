@@ -17,7 +17,7 @@ const mySocialsLink = [
 export default function Hero() {
   return (
     <div className="relative isolate animate-fade px-6 pt-14 lg:px-8">
-      <div className="mx-auto max-w-5xl py-4 sm:py-28 lg:py-36">
+      <div className="mx-auto my-4 max-w-5xl bg-primary_1 bg-opacity-80 p-2 sm:my-28 lg:my-36">
         <p className="mt-6 font-montserrat text-lg leading-8 text-teal-100">
           Hi, my name is
         </p>
