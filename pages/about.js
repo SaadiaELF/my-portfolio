@@ -38,13 +38,13 @@ export default function About() {
         <p className="select-none bg-primary_1 p-4 text-justify font-montserrat text-lg leading-8 text-teal-50 antialiased drop-shadow-md">
           Hello, I'm Saadia, and I have a passion for problem-solving and
           debugging 🐞. I discovered my love for programming back in high
-          school, when I taught myself to create websites from scratch using
-          just bare HTML in NotePad 😆. However, I initially pursued a career in
-          hydraulic engineering and worked in the field for a couple of years.
-          Eventually, I realised that my heart wasn't in it, and I yearned to
-          return to my true passion: programming. Recently, I made the decision
-          to switch careers and pursue a path in tech. I'm excited to see where
-          this journey takes me!
+          school, where I began creating websites using basic HTML with just a
+          simple text editor, like NotePad 😆. However, I initially pursued a
+          career in hydraulic engineering and worked in the field for a couple
+          of years. Eventually, I realised that my heart wasn't in it, and I
+          yearned to return to my true passion: programming. Recently, I made
+          the decision to switch careers and pursue a path in tech. I'm excited
+          to see where this journey takes me!
         </p>
       </div>
 
