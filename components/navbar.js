@@ -5,7 +5,7 @@ import Link from "next/link";
 import logo from "../public/logo.gif";
 
 const navigation = [
-  { name: "About", href: "#", current: true },
+  { name: "About", href: "#about", current: true },
   { name: "Experience", href: "#", current: false },
   { name: "Projects", href: "#", current: false },
   { name: "Contact", href: "#", current: false },
