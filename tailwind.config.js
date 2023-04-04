@@ -26,6 +26,9 @@ export const theme = {
         to: { opacity: "1", transform: "translateY(0)" },
       },
     },
+    backgroundImage: {
+      main: "url('/bg.svg')",
+    },
   },
 };
 export const plugins = [];
