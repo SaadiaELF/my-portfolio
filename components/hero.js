@@ -17,7 +17,7 @@ const mySocialsLink = [
 
 export default function Hero() {
   return (
-    <Container id="hero" bg_class="bg-cover xl:bg-main">
+    <Container id="hero" bg_class="bg-cover h-screen xl:bg-main">
       <p className="mt-6 font-montserrat text-lg leading-8 text-teal-100">
         Hi, my name is
       </p>
@@ -27,7 +27,7 @@ export default function Hero() {
       <h1 className="font-barlow text-4xl tracking-tight text-secondary_1 sm:text-7xl">
         I build awesome things on the web.
       </h1>
-      <p className="mt-6 font-montserrat text-lg leading-8 text-teal-100">
+      <p className="select-none mt-6 font-montserrat text-lg leading-8 text-teal-100 antialiased">
         I’m a full stack web developer based in Birmingham, UK. I'm using PERN
         and MERM stack to make exceptional web applications. Currently, I’m
         focusing on building accessible, human-centered products at
