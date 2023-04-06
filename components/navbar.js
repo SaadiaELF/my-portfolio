@@ -1,21 +1,33 @@
+import { useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../public/logo.gif";
 
-const navigation = [
-  { name: "About", href: "#about", current: true },
-  { name: "Experience", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Contact", href: "#", current: false },
-];
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
 export default function Navbar() {
+  const [navigation, setNavigation] = useState([
+    { name: "About", href: "#about", current: true },
+    { name: "Experience", href: "#experience", current: false },
+    { name: "Projects", href: "#", current: false },
+    { name: "Contact", href: "#", current: false },
+  ]);
+
+  function handleActiveTab(name) {
+    const newNavigation = navigation.map((item) => {
+      if (item.name === name) {
+        return { ...item, current: true };
+      } else {
+        return { ...item, current: false };
+      }
+    });
+    setNavigation(newNavigation);
+  }
+
   return (
     <Disclosure as="nav" className="bg-primary_1">
       {({ open }) => (
@@ -50,21 +62,23 @@ export default function Navbar() {
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "text-secondary_2"
-                            : "text-secondary_1 hover:bg-primary_1 hover:text-secondary_2",
-                          "rounded-md px-3 py-2 font-barlow text-lg"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
+                    {navigation &&
+                      navigation.map((item) => (
+                        <a
+                          key={item.name}
+                          href={item.href}
+                          className={classNames(
+                            item.current
+                              ? "text-secondary_2"
+                              : "text-secondary_1 hover:bg-primary_1 hover:text-secondary_2",
+                            "rounded-md px-3 py-2 font-barlow text-lg"
+                          )}
+                          aria-current={item.current ? "page" : undefined}
+                          onClick={() => handleActiveTab(item.name)}
+                        >
+                          {item.name}
+                        </a>
+                      ))}
                   </div>
                 </div>
               </div>
