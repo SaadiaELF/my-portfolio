@@ -1,13 +1,10 @@
 import { useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { classNames } from "../utils/classNames";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../public/logo.gif";
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
 
 export default function Navbar() {
   const [navigation, setNavigation] = useState([
