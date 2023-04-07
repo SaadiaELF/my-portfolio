@@ -22,7 +22,7 @@ export default function ExpContainer() {
 
   return (
     <div>
-      <div className="mt-10 flex justify-stretch space-x-5 sm:justify-center">
+      <div className="mt-10 flex justify-start">
         {navigation &&
           navigation.map((item) => (
             <a
