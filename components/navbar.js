@@ -67,7 +67,7 @@ export default function Navbar() {
                           className={classNames(
                             item.current
                               ? "text-secondary_2"
-                              : "text-secondary_1 hover:bg-primary_1 hover:text-secondary_2",
+                              : "text-secondary_1 hover:bg-primary_2 hover:text-secondary_2",
                             "rounded-md px-3 py-2 font-barlow text-lg"
                           )}
                           aria-current={item.current ? "page" : undefined}
