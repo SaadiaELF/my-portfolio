@@ -5,8 +5,8 @@ import experiences from "../data/experiences.json";
 
 export default function ExpContainer() {
   const [navigation, setNavigation] = useState([
-    { name: "NOVEC", current: true },
-    { name: "CODE YOUR FUTURE", current: false },
+    { name: "CODE YOUR FUTURE", current: true },
+    { name: "NOVEC", current: false },
   ]);
 
   function handleActiveTab(name) {
@@ -22,7 +22,7 @@ export default function ExpContainer() {
 
   return (
     <div>
-      <div className="mt-10 flex justify-stretch space-x-5 sm:justify-center">
+      <div className="mt-10 flex justify-start">
         {navigation &&
           navigation.map((item) => (
             <a
@@ -43,7 +43,11 @@ export default function ExpContainer() {
       <div>
         {experiences.map((experience, i) => {
           return (
-            <OneExperience current={navigation[i].current} data={experience} />
+            <OneExperience
+              key={i}
+              current={navigation[i].current}
+              data={experience}
+            />
           );
         })}
       </div>
