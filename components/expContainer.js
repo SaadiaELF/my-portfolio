@@ -5,8 +5,8 @@ import experiences from "../data/experiences.json";
 
 export default function ExpContainer() {
   const [navigation, setNavigation] = useState([
-    { name: "NOVEC", current: true },
-    { name: "CODE YOUR FUTURE", current: false },
+    { name: "CODE YOUR FUTURE", current: true },
+    { name: "NOVEC", current: false },
   ]);
 
   function handleActiveTab(name) {
@@ -43,7 +43,11 @@ export default function ExpContainer() {
       <div>
         {experiences.map((experience, i) => {
           return (
-            <OneExperience current={navigation[i].current} data={experience} />
+            <OneExperience
+              key={i}
+              current={navigation[i].current}
+              data={experience}
+            />
           );
         })}
       </div>
