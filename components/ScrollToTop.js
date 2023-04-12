@@ -31,7 +31,6 @@ export const ScrollToTop = () => {
 
   return (
     <div className="fixed bottom-10 right-10 z-10 sm:bottom-20 sm:right-20">
-  
       <FontAwesomeIcon
         icon={faCircleArrowUp}
         size="2xl"
@@ -42,7 +41,6 @@ export const ScrollToTop = () => {
         )}
         aria-hidden="true"
       />
-      {/* </button> */}
     </div>
   );
 };

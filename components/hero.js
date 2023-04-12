@@ -27,15 +27,30 @@ export default function Hero() {
       <h1 className="font-barlow text-4xl tracking-tight text-secondary_1 sm:text-7xl">
         I build awesome things on the web.
       </h1>
-      <p className="select-none mt-6 font-montserrat text-lg leading-8 text-teal-100 antialiased">
-        I’m a full stack web developer based in Birmingham, UK. I'm using PERN
-        and MERM stack to make exceptional web applications. Currently, I’m
-        focusing on building accessible, human-centered products at
+      <p className="mt-6 select-none font-montserrat text-lg leading-8 text-teal-100 antialiased">
+        I’m a full stack web developer based in Birmingham, UK. I'm using
         <a
-          className="p-1 text-secondary_2 hover:text-secondary_1"
+          className="p-1 font-bold text-secondary_2 hover:text-secondary_1"
+          href="https://www.geeksforgeeks.org/what-is-pern-stack/"
+          target="_blank"
+        >
+          PERN
+        </a>
+        and
+        <a
+          className="p-1 font-bold text-secondary_2 hover:text-secondary_1"
+          href="https://www.mongodb.com/mern-stack#:~:text=MERN%20stands%20for%20MongoDB%2C%20Express,a%20client%2Dside%20JavaScript%20framework"
+          target="_blank"
+        >
+          MERN
+        </a>
+        stack to make exceptional web applications. Currently, I’m focusing on
+        building accessible, human-centered products at
+        <a
+          className="p-1 font-bold text-secondary_2 hover:text-secondary_1"
           href="https://codeyourfuture.io/"
           target="_blank"
-          alt="codeyourfuturre website"
+          alt="codeyourfuture website"
         >
           CodeYourFuture.
         </a>
