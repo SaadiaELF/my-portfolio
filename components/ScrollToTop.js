@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { classNames } from "../utils/classNames";
+import { useRouter } from "next/navigation";
 
 export const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const router = useRouter();
 
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
@@ -19,6 +21,7 @@ export const ScrollToTop = () => {
       top: 0,
       behavior: "smooth",
     });
+    router.back();
   };
 
   useEffect(() => {
