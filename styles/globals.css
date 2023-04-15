@@ -27,7 +27,6 @@
   .button:hover::before {
     width: 105%;
   }
-
 }
 
 html,
