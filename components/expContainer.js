@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { classNames } from "../utils/classNames";
 import OneExperience from "./oneExperience";
-import experiences from "../data/experiences.json";
+import experiences from "../data/experiences";
 
 export default function ExpContainer() {
   const [navigation, setNavigation] = useState([
