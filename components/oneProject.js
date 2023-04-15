@@ -29,14 +29,14 @@ export default function OneProject({ project }) {
           </a>
         </div>
       </div>
-      <div className="h-max bg-secondary_1 sm:h-80">
+      <div className="h-max bg-primary_2 sm:h-80">
         <Image
-          className="w-contain max-w-60 contrast[10%] h-max mix-blend-multiply drop-shadow-md hover:mix-blend-normal hover:filter-none sm:h-80 "
+          className="w-contain max-w-60 contrast[10%] h-max mix-blend-overlay drop-shadow-md hover:mix-blend-normal hover:filter-none sm:h-80"
           src={project.image}
           alt="project"
         />
       </div>
-      <div className="flex w-full  flex-col justify-center bg-primary_1 p-4 sm:row-span-3  ">
+      <div className="flex w-full flex-col justify-center bg-primary_1 p-4 drop-shadow-md sm:row-span-3">
         <p className="select-none bg-primary_1 text-justify font-montserrat text-base leading-6 text-teal-50 antialiased">
           {project.description}
         </p>
