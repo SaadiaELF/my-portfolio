@@ -3,9 +3,9 @@ import { classNames } from "../utils/classNames";
 export default function OneExperience({ data, current }) {
   return (
     <div className={classNames(current ? "" : "hidden", " bg-primary_2  p-4")}>
-      <h2 className="font-barlow text-xl tracking-tight text-secondary_2 sm:text-2xl">
+      <h3 className="font-barlow text-xl tracking-tight text-secondary_2 sm:text-2xl">
         {data.role}
-      </h2>
+      </h3>
       <h3 className="font-barlow text-lg tracking-tight text-secondary_1 sm:text-xl">
               <span className="pe-3">{data.date}</span>
               <span className="pe-3">|</span>
