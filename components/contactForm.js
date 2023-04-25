@@ -45,7 +45,6 @@ export default function ContactForm() {
         >
           Message
         </label>
-        <div className="mt-2">
           <textarea
             id="about"
             name="about"
@@ -54,7 +53,6 @@ export default function ContactForm() {
             defaultValue={""}
             minLength={20}
           />
-        </div>
       </div>
       <button
         type="submit"
