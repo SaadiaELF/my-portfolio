@@ -10,24 +10,26 @@ export default function OneProject({ project }) {
         <h3 className="font-barlow text-2xl tracking-tight text-secondary_1 sm:text-3xl ">
           {project.title}
         </h3>
-        <div className="flex items-center">
-          <a href={project.github} target="_blank" className="h-fit px-2">
-            <FontAwesomeIcon
-              className="icon"
-              icon={faGithub}
-              size="lg"
-              style={{ color: "#00ADB5" }}
-            />
-          </a>
-          <a href={project.url} target="_blank" className="h-fit px-2">
-            <FontAwesomeIcon
-              className="icon"
-              icon={faUpRightFromSquare}
-              size="lg"
-              style={{ color: "#00ADB5" }}
-            />
-          </a>
-        </div>
+        {project.github && (
+          <div className="flex items-center">
+            <a href={project.github} target="_blank" className="h-fit px-2">
+              <FontAwesomeIcon
+                className="icon"
+                icon={faGithub}
+                size="lg"
+                style={{ color: "#00ADB5" }}
+              />
+            </a>
+            <a href={project.url} target="_blank" className="h-fit px-2">
+              <FontAwesomeIcon
+                className="icon"
+                icon={faUpRightFromSquare}
+                size="lg"
+                style={{ color: "#00ADB5" }}
+              />
+            </a>
+          </div>
+        )}
       </div>
       <div className="h-max bg-primary_2 sm:h-80">
         <Image
