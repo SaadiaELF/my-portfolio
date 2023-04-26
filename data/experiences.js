@@ -5,10 +5,11 @@ const experience = [
     date: "01/2023 - current",
     location: "Birmingham, UK",
     duties: [
-      "Created a script to extract JSON data from an API and convert it to CSV format.",
-      "Set up the backend to create a new database schema and API endpoints for the cohort planner feature.",
-      "Reviewed and improved the UI of the Dashboard Homepage.",
-      "Reviewed and implemented a deadline reminder email for sign-up.",
+      "Collaborated with CYF's in-house cross-functional Agile team to develop and maintain 4 software products.",
+      "Coordinated in planning, refining, and implementing new user stories across 5 sprints.",
+      "Reviewed and tested more than 10 user stories to ensure adherence to requirements and quality standards.",
+      "Collaborated with team members through pair programming at least twice a week, reviewing, testing, and implementing solutions to improve software products, while also maintaining effective communication with colleagues through daily updates and knowledge sharing.",
+      "Streamlined the team's documentation system by creating new sections on delivery processes and setting up new member environments; reduced the onboarding time by 50%",
     ],
   },
   {

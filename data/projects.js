@@ -1,8 +1,17 @@
 import feedbackTrackerImg from "../public/projects/cyf-tracker.png";
 import countriesImg from "../public/projects/countries.png";
 import tvShowsImg from "../public/projects/tv-shows.png";
-
+import cyfProducts from "../public/projects/cyf-products.png";
 const projects = [
+  {
+    title: "CYF Products",
+    github: "",
+    url: "",
+    image: cyfProducts,
+    description:
+      "Developed and maintained solutions for 4 software products : Dashboard (CRM to manage students and volunteers), CYF Forms (Students  and volunteers registration forms), Intro To Digital - ITD (Student Application Process), CYF API (API to connect ITD, Forms and Dashboard)",
+    tech_stack: ["React", "Bootstrap", "Express", "MongoDB", "JavaScript"],
+  },
   {
     title: "CYF_Feedback Tracker",
     github:
