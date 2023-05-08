@@ -45,7 +45,7 @@ export default function Hero() {
           MERN
         </a>
         stack to make exceptional web applications. Currently, I’m focusing on
-        building accessible, human-centered products at
+        building accessible, human-centred products at
         <a
           className="p-1 font-bold text-secondary_2 hover:text-secondary_1"
           href="https://codeyourfuture.io/"
