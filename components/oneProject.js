@@ -5,9 +5,9 @@ import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 export default function OneProject({ project }) {
   return (
-    <div className="mt-10 grid h-max min-w-full gap-x-3 gap-y-2 sm:h-80 sm:grid-cols-2 sm:grid-rows-4 ">
+    <div className="mt-10 grid h-max min-w-full gap-x-3 gap-y-2 bg-primary_1 sm:h-80 sm:grid-cols-2 sm:grid-rows-4 ">
       <div className="flex items-center justify-between p-2">
-        <h3 className="font-barlow text-2xl tracking-tight text-secondary_1 sm:text-3xl ">
+        <h3 className="ps-4 font-barlow text-2xl tracking-tight text-secondary_1 sm:text-3xl ">
           {project.title}
         </h3>
         {project.github && (
@@ -38,8 +38,8 @@ export default function OneProject({ project }) {
           alt="project"
         />
       </div>
-      <div className="flex w-full flex-col justify-center bg-primary_1 p-4 drop-shadow-md sm:row-span-3">
-        <p className="select-none bg-primary_1 text-justify font-montserrat text-base leading-6 text-teal-50 antialiased">
+      <div className="flex w-full  flex-col justify-center p-4 drop-shadow-md sm:row-span-3">
+        <p className="select-none bg-none text-justify font-montserrat text-base leading-6 text-teal-50 antialiased">
           {project.description}
         </p>
         <div className="mt-2 flex flex-wrap">
