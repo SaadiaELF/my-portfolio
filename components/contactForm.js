@@ -96,7 +96,6 @@ export default function ContactForm() {
           value={message}
           rows={3}
           className="sm:text-md block w-full flex-1 rounded-md border-0 py-1.5 pl-2 font-montserrat focus:ring-0 sm:leading-8"
-          defaultValue={""}
           minLength={20}
           onChange={(e) => {
             setMessage(e.target.value);
