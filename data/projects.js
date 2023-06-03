@@ -2,7 +2,17 @@ import feedbackTrackerImg from "../public/projects/cyf-tracker.png";
 import countriesImg from "../public/projects/countries.png";
 import tvShowsImg from "../public/projects/tv-shows.png";
 import cyfProducts from "../public/projects/cyf-products.png";
+import simplyImg from "../public/projects/simply.png";
+
 const projects = [
+  {
+    title: "Simply Fashion Store",
+    github: "https://github.com/SaadiaELF/simply-store.git",
+    url: "https://simply-store-five.vercel.app/",
+    image: simplyImg,
+    description: "E-commerce mock website using Shopify mock shop to build a product page where a customer can view the details of a product and add to basket/purchase.",
+    tech_stack: ["Next.js", "React", "TypeScript", "JavaScript"],
+  },
   {
     title: "CYF Products",
     github: "",
