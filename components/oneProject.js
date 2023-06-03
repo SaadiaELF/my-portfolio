@@ -38,7 +38,7 @@ export default function OneProject({ project }) {
           alt="project"
         />
       </div>
-      <div className="flex w-full  flex-col justify-center p-4 drop-shadow-md sm:row-span-3">
+      <div className="flex w-full  flex-col justify-between p-4 drop-shadow-md sm:row-span-3">
         <p className="select-none bg-none text-justify font-montserrat text-base leading-6 text-teal-50 antialiased">
           {project.description}
         </p>
