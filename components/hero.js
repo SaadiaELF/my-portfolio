@@ -1,4 +1,8 @@
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faGoogleDrive,
+} from "@fortawesome/free-brands-svg-icons";
 import SocialLink from "./socialLink";
 import Container from "./container";
 
@@ -12,6 +16,11 @@ const mySocialsLink = [
     text: "GitHub",
     icon: faGithub,
     link: "https://github.com/SaadiaELF",
+  },
+  {
+    text: "Resume",
+    icon: faGoogleDrive,
+    link: "https://docs.google.com/document/d/1nhHRMiwSlmOh3qoxpZ3hWVS5G_ZAZPUhBlXUtkjAdhw/edit?usp=sharing",
   },
 ];
 
