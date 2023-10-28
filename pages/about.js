@@ -9,22 +9,22 @@ export default function About() {
   return (
     <Container id="about" bg_class="bg-primary_2">
       <Heading text="About me" />
-      <div className="mt-10 flex flex-row flex-wrap content-center justify-center gap-3 lg:flex-nowrap">
+      <div className="mt-10 flex flex-wrap content-center justify-center gap-3 lg:flex-nowrap">
         <Image
-          className="w-contain drop-shadow-md grayscale hover:filter-none"
+          className="max-w-full drop-shadow-md grayscale hover:filter-none"
           src={profileImg}
           alt="my-photo"
         />
         <p className="select-none bg-primary_1 p-4 text-justify font-montserrat text-lg leading-8 text-teal-50 antialiased drop-shadow-md">
-          Hello, I'm Saadia, and I have a passion for problem-solving and
-          debugging 🐞. I discovered my love for programming back in high
-          school, where I began creating websites using basic HTML with just a
-          simple text editor, like NotePad 😆. However, I initially pursued a
-          career in hydraulic engineering and worked in the field for a couple
-          of years. Eventually, I realised that my heart wasn't in it, and I
-          yearned to return to my true passion: programming. Recently, I made
-          the decision to switch careers and pursue a path in tech. I'm excited
-          to see where this journey takes me!
+          Hey there, I'm Saadia, and I absolutely love problem-solving and
+          debugging 🐞. My fascination with coding goes way back to high school
+          when I started building websites with basic HTML using a humble text
+          editor like NotePad 😆. I initially went down the path
+          of hydraulic engineering and spent a few years in that field. But you
+          know what? My heart just wasn't in it, and I couldn't shake my true
+          passion: programming. So, I've recently made the bold move to switch
+          gears and dive into the tech world. I can't wait to see where this new
+          journey leads me! 😃
         </p>
       </div>
 

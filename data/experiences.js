@@ -1,18 +1,16 @@
 const experience = [
   {
     id: 0,
-    role: "Volunteer Software Developer ",
-    date: "01/2023 - current",
+    role: "Full-Stack Developer ",
+    date: "11/2022 - current",
     location: "Birmingham, UK",
     duties: [
-      "Coordinated with CYF's cross-functional Agile team to create and maintain 4  software products used to manage students and volunteers data, application process, and APIs; increased student registration by 35% and volunteer sign-ups by 15%.",
-      "Developed a solution to manage Admins access for the Head of Operations by creating a script that extracted JSON data from the API and converted it to CSV format using JavaScript and Node.js; reduced time spent on manual data entry by 75%.",
-      "Designed a robust database schema and API endpoints for the cohort planner feature using Mongoose and Express.js; implemented Test-Driven Development (TDD) approach and tested API endpoints with Supertest and Jest libraries, delivering 100% bug-free code.",
-      "Redesigned the React Dashboard Homepage with a mobile-first approach, reducing code complexity and visual intricacy by 50%.",
-      "Reviewed and improved a deadline reminder email for sign-up to retain 20% more users.",
-      "Coordinated in planning, refining, and implementing new user stories across 5 sprints.",
-      "Reviewed and tested more than 10 user stories to ensure adherence to requirements and quality standards.",
-      "Streamlined the team's documentation system by creating new sections on delivery processes and setting up new member environments; reduced the onboarding time by 50%.",
+      "Coordinated with CYF's cross-functional Agile team to create and maintain 4  software products used to manage students and volunteers data, application process, and APIs.",
+      "Coordinated in planning, refining, and implementing new user stories across 15 sprints.",
+      "Reviewed and tested more than 50 pull requests to ensure adherence to requirements and quality standards.",
+      "Took on various team roles as required, including serving as a Scrum master, QA tester, and developer.",
+      "Facilitated meetings and effective communication between team members as Scrum master.",
+      "Mentored and onboarded 4 new team members to ensure their rapid integration.",
     ],
   },
   {
