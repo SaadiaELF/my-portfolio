@@ -9,9 +9,9 @@ export default function About() {
   return (
     <Container id="about" bg_class="bg-primary_2">
       <Heading text="About me" />
-      <div className="mt-10 flex flex-row flex-wrap content-center justify-center gap-3 lg:flex-nowrap">
+      <div className="mt-10 flex flex-wrap content-center justify-center gap-3 lg:flex-nowrap">
         <Image
-          className="w-contain drop-shadow-md grayscale hover:filter-none"
+          className="max-w-full drop-shadow-md grayscale hover:filter-none"
           src={profileImg}
           alt="my-photo"
         />
