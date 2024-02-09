@@ -10,7 +10,8 @@ const projects = [
     github: "https://github.com/SaadiaELF/simply-store.git",
     url: "https://simply-store-five.vercel.app/",
     image: simplyImg,
-    description: "E-commerce mock website using Shopify mock shop to build a product page where a customer can view the details of a product and add to basket/purchase.",
+    description:
+      "E-commerce mock website using Shopify mock shop to build a product page where a customer can view the details of a product and add to basket/purchase.",
     tech_stack: ["Next.js", "React", "TypeScript", "JavaScript"],
   },
   {
@@ -26,7 +27,7 @@ const projects = [
     title: "CYF_Feedback Tracker",
     github:
       "https://github.com/SaadiaELF/wm4-1-techieelites-feedbacktracker.git",
-    url: "https://starter-kit-5gb3.onrender.com",
+    url: "https://cyf-feedback-tracker.onrender.com/",
     image: feedbackTrackerImg,
     description:
       "The Feedback Tracker App is a powerful tool designed to help students and mentors alike to track progress and provide valuable feedback throughout a course. With this app, students can easily send feedback about their progress, while mentors can add their own feedback about how their students are doing.",
